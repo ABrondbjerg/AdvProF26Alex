@@ -76,7 +76,7 @@ en boolean, der angiver om listen er cycklisk.
   - Hvis `fast` når enden af listen returneres `false`
   - Test din kode ved at køre `main` i klassen `Main`
 
-Bonusopgave: Kan du forudse hvad `floydexample.TraversingArrays` vil returnere med inputtet ` int[] test = {2, 0, 1}` og hvorfor?
+Bonusopgave: Kan du forudse hvad `floydexample.TraversingArrays.hasCycle(..)` vil returnere med inputtet ` int[] test = {2, 0, 1}` og hvorfor?
 
 ## 5. BFS
 
