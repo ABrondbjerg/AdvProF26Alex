@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a9a5430-e83d-4879-8d5e-c9086862fc55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/treesearchsolution/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/treesearchsolution/SearchStrategies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/undirectedgraphs/CycleDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/undirectedgraphs/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/algorithms/algorithms_exercises.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/algorithms_exercises.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/graphsearch/SearchStrategies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/graphsearch/SearchStrategies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/graphsearchcycles/CycleDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/graphsearchcycles/CycleDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/treesearch/SearchStrategies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/treesearch/SearchStrategies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/circularlinkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/circularlinkedlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/reversedlinkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/reversedlinkedlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/reversedlinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/reversedlinkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/reversedlinkedlistsolution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/reversedlinkedlistsolution/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +48,12 @@
     "Application.Main.executor": "Run",
     "Application.SearchStrategies.executor": "Run",
     "Application.TreeSetMutationDemo.executor": "Run",
+    "Application.algorithms.circularlinkedlist.Main.executor": "Run",
     "Application.algorithms.circularlinkedlistsolution.Main.executor": "Run",
     "Application.algorithms.floydexample.Main.executor": "Run",
     "Application.algorithms.reversedlinkedlistsolution.Main.executor": "Run",
     "Application.algorithms.treesearchsolution.SearchStrategies.executor": "Run",
+    "Application.algorithms.undirectedgraphs.CycleDetector.executor": "Run",
     "Application.concurrency.bankaccount.Main.executor": "Run",
     "Application.concurrency.executorsolution.Main.executor": "Run",
     "Application.concurrency.observersolution.Main.executor": "Run",
@@ -102,7 +100,7 @@
       <recent name="concurrency.deadlocksolution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.algorithms.undirectedgraphs.CycleDetector">
+  <component name="RunManager" selected="Application.algorithms.circularlinkedlist.Main">
     <configuration name="CycleDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.graphsearchcycles.CycleDetector" />
       <module name="AvanceretProgrammering" />
@@ -116,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchStrategies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.graphsearch.SearchStrategies" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.reversedlinkedlist.Main" />
       <module name="AvanceretProgrammering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.graphsearch.*" />
+          <option name="PATTERN" value="algorithms.reversedlinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithms.circularlinkedlistsolution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.circularlinkedlistsolution.Main" />
+    <configuration name="algorithms.circularlinkedlist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.circularlinkedlist.Main" />
       <module name="AvanceretProgrammering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.circularlinkedlistsolution.*" />
+          <option name="PATTERN" value="algorithms.circularlinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithms.treesearchsolution.SearchStrategies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.treesearchsolution.SearchStrategies" />
+    <configuration name="algorithms.floydexample.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.floydexample.Main" />
       <module name="AvanceretProgrammering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.treesearchsolution.*" />
+          <option name="PATTERN" value="algorithms.floydexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithms.circularlinkedlist.Main" />
+        <item itemvalue="Application.algorithms.floydexample.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.algorithms.undirectedgraphs.CycleDetector" />
         <item itemvalue="Application.CycleDetector" />
-        <item itemvalue="Application.algorithms.treesearchsolution.SearchStrategies" />
-        <item itemvalue="Application.SearchStrategies" />
-        <item itemvalue="Application.algorithms.circularlinkedlistsolution.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +212,8 @@
       <workItem from="1745553668842" duration="11950000" />
       <workItem from="1745763419115" duration="3770000" />
       <workItem from="1745825850885" duration="11516000" />
-      <workItem from="1745853265319" duration="3257000" />
+      <workItem from="1745853265319" duration="4258000" />
+      <workItem from="1745910047709" duration="4589000" />
     </task>
     <servers />
   </component>

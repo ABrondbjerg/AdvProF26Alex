@@ -14,9 +14,10 @@ public class Main {
     public static Node reverseList(Node head) {
         Node prev = null;
         Node current = head;
+        Node next;
 
         while (current != null) {
-            Node next = current.next;
+            next = current.next;
             current.next = prev;
             prev = current;
             current = next;
