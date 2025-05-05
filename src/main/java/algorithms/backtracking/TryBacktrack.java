@@ -3,7 +3,7 @@ package algorithms.backtracking;
 public class TryBacktrack {
     public static void main(String[] args) {
 
-        System.out.println("Simple loop:");
+     /*   System.out.println("Simple loop:");
         simpleForloop();
         System.out.println("----------------------------------");
         System.out.println("Inner loop:");
@@ -11,7 +11,7 @@ public class TryBacktrack {
         System.out.println("----------------------------------");
         System.out.println("More inner loops:");
         moreInnerLoops();
-        System.out.println("----------------------------------");
+        System.out.println("----------------------------------");*/
         System.out.println("Explore:");
         explore(0, "");
         System.out.println("----------------------------------");
