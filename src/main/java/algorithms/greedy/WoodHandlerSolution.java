@@ -10,7 +10,9 @@ public class WoodHandlerSolution {
         System.out.println("17 meter: " + calculateWood(17));
         System.out.println("13 meter: " + calculateWood(13));
         System.out.println("10 meter: " + calculateWood(10));
+        System.out.println("Præcis 17 meter: " + calculateWoodPrecisely(17));
     }
+
 
     static int[] lengths = {7, 5, 2};
 

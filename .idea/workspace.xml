@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a9a5430-e83d-4879-8d5e-c9086862fc55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/reflection/reflexion_exercises.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations/AccessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations/SecureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations_solution/AccessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations_solution/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations_solution/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations_solution/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations_solution/SecureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/annotations_solution/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/fieldsandmethods/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/fieldsandmethods/MysteryInspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/fieldsandmethods/MysteryInspectorSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/fieldsandmethods/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/fieldsandmethods/ReflectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/fieldsandmethods/SecretBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/algorithms/algorithms_exercises.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithms/algorithms_exercises.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/backtracking/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/backtracking/NQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/backtracking/TryBacktrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/backtracking/TryBacktrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/greedy/WoodHandlerSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/greedy/WoodHandlerSolution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +37,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -44,13 +62,15 @@
     "Application.BigOExamples.executor": "Run",
     "Application.CycleDetector.executor": "Run",
     "Application.HashSetMutationDemo.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.MazeExercise.executor": "Run",
-    "Application.MazeSolution.executor": "Run",
+    "Application.MazeSolution.executor": "Debug",
     "Application.MoneyHandler.executor": "Run",
+    "Application.MysteryInspector.executor": "Run",
+    "Application.MysteryInspectorSolution.executor": "Run",
     "Application.SearchStrategies.executor": "Run",
     "Application.TreeSetMutationDemo.executor": "Run",
-    "Application.TryBacktrack.executor": "Debug",
+    "Application.TryBacktrack.executor": "Run",
     "Application.WoodHandlerSolution.executor": "Run",
     "Application.algorithms.backtracking.Main.executor": "Debug",
     "Application.algorithms.circularlinkedlist.Main.executor": "Run",
@@ -67,27 +87,30 @@
     "Application.concurrency.threadandrunnable.Main.executor": "Run",
     "Application.designpatterns.exercises.Main.executor": "Run",
     "Application.designpatterns.main.Main.executor": "Run",
+    "Application.reflection.annotations.Main.executor": "Run",
+    "Application.reflection.annotations_solution.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kong/OneDrive - EFIF/Dokumenter/Valgfag/AvanceretProgrammering/src/main/java/algorithms/undirectedgraphs",
+    "last_opened_file_path": "C:/Users/kong/OneDrive - EFIF/Dokumenter/Valgfag/AvanceretProgrammering/src/main/java/reflection/annotations_solution",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/kong/OneDrive - EFIF/Dokumenter/Valgfag/AvanceretProgrammering/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kong\OneDrive - EFIF\Dokumenter\Valgfag\AvanceretProgrammering\src\main\java\reflection\annotations_solution" />
       <recent name="C:\Users\kong\OneDrive - EFIF\Dokumenter\Valgfag\AvanceretProgrammering\src\main\java\algorithms\undirectedgraphs" />
       <recent name="C:\Users\kong\OneDrive - EFIF\Dokumenter\Valgfag\AvanceretProgrammering\src\main\java\algorithms\treesearchsolution" />
       <recent name="C:\Users\kong\OneDrive - EFIF\Dokumenter\Valgfag\AvanceretProgrammering\src\main\java\algorithms\graphsearchcycles" />
       <recent name="C:\Users\kong\OneDrive - EFIF\Dokumenter\Valgfag\AvanceretProgrammering\src\main\java\algorithms\circularlistsolution" />
-      <recent name="C:\Users\kong\OneDrive - EFIF\Dokumenter\Valgfag\AvanceretProgrammering\src\main\java\concurrency\observersolutionwiththreads" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kong\OneDrive - EFIF\Dokumenter\Valgfag\AvanceretProgrammering\docs\designpatterns" />
@@ -105,13 +128,13 @@
       <recent name="concurrency.executorexercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MazeSolution">
-    <configuration name="MazeExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.maze.MazeExercise" />
+  <component name="RunManager" selected="Application.reflection.annotations_solution.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.fieldsandmethods.Main" />
       <module name="AvanceretProgrammering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.maze.*" />
+          <option name="PATTERN" value="reflection.fieldsandmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.mazesolution.MazeSolution" />
+    <configuration name="MysteryInspector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.fieldsandmethods.MysteryInspector" />
       <module name="AvanceretProgrammering" />
+      <option name="PROGRAM_PARAMETERS" value="reflection.fieldsandmethods.SecretBox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.mazesolution.*" />
+          <option name="PATTERN" value="reflection.fieldsandmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryBacktrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.backtracking.TryBacktrack" />
+    <configuration name="MysteryInspectorSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.fieldsandmethods.MysteryInspectorSolution" />
       <module name="AvanceretProgrammering" />
+      <option name="PROGRAM_PARAMETERS" value="reflection.fieldsandmethods.SecretBox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.backtracking.*" />
+          <option name="PATTERN" value="reflection.fieldsandmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WoodHandlerSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.greedy.WoodHandlerSolution" />
+    <configuration name="reflection.annotations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.annotations.Main" />
       <module name="AvanceretProgrammering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.greedy.*" />
+          <option name="PATTERN" value="reflection.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithms.backtracking.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.backtracking.Main" />
+    <configuration name="reflection.annotations_solution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.annotations_solution.Main" />
       <module name="AvanceretProgrammering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.backtracking.*" />
+          <option name="PATTERN" value="reflection.annotations_solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,13 +196,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.reflection.annotations.Main" />
+      <item itemvalue="Application.reflection.annotations_solution.Main" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MysteryInspector" />
+      <item itemvalue="Application.MysteryInspectorSolution" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MazeSolution" />
-        <item itemvalue="Application.MazeExercise" />
-        <item itemvalue="Application.algorithms.backtracking.Main" />
-        <item itemvalue="Application.TryBacktrack" />
-        <item itemvalue="Application.WoodHandlerSolution" />
+        <item itemvalue="Application.reflection.annotations_solution.Main" />
+        <item itemvalue="Application.reflection.annotations.Main" />
+        <item itemvalue="Application.MysteryInspectorSolution" />
+        <item itemvalue="Application.MysteryInspector" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +260,11 @@
       <workItem from="1746170999596" duration="5027000" />
       <workItem from="1746267106893" duration="538000" />
       <workItem from="1746273412567" duration="5233000" />
-      <workItem from="1746443293386" duration="4750000" />
+      <workItem from="1746443293386" duration="5180000" />
+      <workItem from="1746514468235" duration="10185000" />
+      <workItem from="1746697695641" duration="659000" />
+      <workItem from="1746773844126" duration="2646000" />
+      <workItem from="1746971264514" duration="6464000" />
     </task>
     <servers />
   </component>
@@ -257,6 +293,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/backtracking/NQueens.java</url>
           <line>38</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/backtracking/TryBacktrack.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
