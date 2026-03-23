@@ -2,7 +2,7 @@ package searchandsort.entities;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student>{
 
     private String name;
     private int id;
@@ -37,6 +37,13 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hash(id);
+    }
+
+    @Override
+    public int compareTo(Student other){
+        if (this.equals(other)) return 0;
+        else if (this.getId() > other.getId()) return 1;
+        else return -1;
     }
 
     @Override

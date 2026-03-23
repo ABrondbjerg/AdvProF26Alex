@@ -8,19 +8,6 @@ import java.util.Scanner;
 
 public class SearchExamples {
 
-    public static void main(String[] args) {
-        System.out.println("Tænk på et tal mellem 1 og 100");
-        System.out.println("Jeg prøver at gætte det...");
-
-        System.out.println("\nLineær søgning:");
-        guessNumberLinearly();
-
-        System.out.println("\nBinær søgning:");
-        guessNumberBinary();
-    }
-
-    private static Scanner scanner = new Scanner(System.in);
-
     // Lineær søgning i array
     public static int linearSearch(int[] array, int target) {
         for (int i = 0; i < array.length; i++) {
@@ -55,7 +42,7 @@ public class SearchExamples {
         return null;
     }
 
-    // Binær søgning - O(log n) - Kræver sorteret liste!
+    // Binær søgning - Kræver sorteret liste!
     public static Student binarySearch(List<Student> students, int id) {
         int low = 0;
         int high = students.size() - 1;
@@ -73,17 +60,6 @@ public class SearchExamples {
         }
         return null;
     }
-
-    // Lineær søgning: prøver 1, 2, 3, ...
-    public static void guessNumberLinearly() {
-
-    }
-
-        // Binær søgning: deler søgeområdet og spørger større/mindre
-    public static void guessNumberBinary() {
-
-    }
-
 
 
 }
