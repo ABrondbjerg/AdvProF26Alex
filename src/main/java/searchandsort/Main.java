@@ -8,8 +8,8 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-         testComplexity();
-       // testLinearAndBinarySearch();
+        testComplexity();
+       //testLinearAndBinarySearch();
        // testSort();
 
     }
