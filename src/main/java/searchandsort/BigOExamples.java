@@ -45,5 +45,30 @@ public class BigOExamples {
         }
 
     }
+
+    // O(1)
+    public int getFirst(int[] arr) {
+        return arr[0];
+    }
+    // O(Log n)
+    public boolean binarySearch(int[] sortedArr, int target) {
+        int low = 0, high = sortedArr.length - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (sortedArr[mid] == target) return true;
+            else if (sortedArr[mid] < target) low = mid + 1;
+            else high = mid - 1;
+        }
+        return false;
+    }
+
+    // O(n)
+    public int sumAll(int[] arr) {
+        int sum = 0;
+        for (int num : arr) {
+            sum += num;
+        }
+        return sum;
+    }
 }
 
