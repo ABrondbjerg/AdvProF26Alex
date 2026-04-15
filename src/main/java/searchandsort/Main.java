@@ -8,9 +8,10 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-         testComplexity();
+       //  testComplexity();
        // testLinearAndBinarySearch();
-       // testSort();
+       testBubble(10, true, true);
+       testMerge(10, true, true);
 
     }
 
@@ -58,7 +59,12 @@ public class Main {
 
         // Sorter listen efter ID (nødvendigt for binær søgning)
         // Hvad sorteres de studerende efter? Hvordan finder vi ud af det?
-        Collections.sort(students);
+        Collections.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                return o1.getName().compareTo(o2.getName());
+            }
+        });
 
         // Binær søgning
         start = System.currentTimeMillis();
@@ -68,40 +74,69 @@ public class Main {
         System.out.println("Tid: " + (stop - start) + " ms");
     }
 
-    private static void testSort() {
-        List<Student> original = new ArrayList<>();
-        Factory.fillWithStudents(original, 100000); // eller fx 10_000 til hurtigere test
-      //  Collections.shuffle(original);
-
-        // Bubble Sort (langsom)
-        List<Student> bubbleList = new ArrayList<>(original);
+    private static void testBubble(int size, boolean time, boolean print) {
+        List<Student> list = new ArrayList<>();
+        Factory.fillWithStudents(list, size);
+        Collections.shuffle(list);
+        if (print) printList("Bubble Sort - før", list);
         long start = System.currentTimeMillis();
-     //   SortExamples.bubbleSort(bubbleList);
+        SortExamples.bubbleSort(list);
         long stop = System.currentTimeMillis();
-        System.out.println("Bubble Sort - tid: " + (stop - start) + " ms");
-
-        // Heap Sort
-        List<Student> heapList = new ArrayList<>(original);
-        start = System.currentTimeMillis();
-        SortExamples.heapSort(heapList);
-        stop = System.currentTimeMillis();
-        System.out.println("Heap Sort - tid: " + (stop - start) + " ms");
-
-        // Quick Sort
-        List<Student> quickList = new ArrayList<>(original);
-        start = System.currentTimeMillis();
-        SortExamples.quickSort(quickList, 0, quickList.size() - 1);
-        stop = System.currentTimeMillis();
-        System.out.println("Quick Sort - tid: " + (stop - start) + " ms");
-
-        // Merge Sort
-        List<Student> mergeList = new ArrayList<>(original);
-        start = System.currentTimeMillis();
-        SortExamples.mergeSort(mergeList);
-        stop = System.currentTimeMillis();
-        System.out.println("Merge Sort - tid: " + (stop - start) + " ms");
+        if (print) printList("Bubble Sort - efter", list);
+        if (time) System.out.println("Bubble Sort - tid: " + (stop - start) + " ms");
     }
 
+    private static void testHeap(int size, boolean time, boolean print) {
+        List<Student> list = new ArrayList<>();
+        Factory.fillWithStudents(list, size);
+        Collections.shuffle(list);
+        if (print) printList("Heap Sort - før", list);
+        long start = System.currentTimeMillis();
+        SortExamples.heapSort(list);
+        long stop = System.currentTimeMillis();
+        if (print) printList("Heap Sort - efter", list);
+        if (time) System.out.println("Heap Sort - tid: " + (stop - start) + " ms");
+    }
+
+    private static void testQuick(int size, boolean time, boolean print) {
+        List<Student> list = new ArrayList<>();
+        Factory.fillWithStudents(list, size);
+        Collections.shuffle(list);
+        if (print) printList("Quick Sort - før", list);
+        long start = System.currentTimeMillis();
+        SortExamples.quickSort(list, 0, list.size() - 1);
+        long stop = System.currentTimeMillis();
+        if (print) printList("Quick Sort - efter", list);
+        if (time) System.out.println("Quick Sort - tid: " + (stop - start) + " ms");
+    }
+
+    private static void testMerge(int size, boolean time, boolean print) {
+        List<Student> original = new ArrayList<>();
+        Factory.fillWithStudents(original, size);
+        Collections.shuffle(original);
+        Student[] mergearray = original.toArray(new Student[0]);
+        if (print) printArray("Merge Sort - før", mergearray);
+        long start = System.currentTimeMillis();
+        SortExamples.mergeSort(mergearray);
+        long stop = System.currentTimeMillis();
+        if (print) printArray("Merge Sort - efter", mergearray);
+        if (time) System.out.println("Merge Sort - tid: " + (stop - start) + " ms");
+    }
+
+    // Hjælpemetoder til udskrift
+    private static void printList(String label, List<Student> list) {
+        System.out.println(label + ": ");
+        for(Student s:list){
+            System.out.println(s);
+        }
+    }
+
+    private static void printArray(String label, Student[] arr) {
+        System.out.println(label + ": ");
+        for(Student s:arr){
+            System.out.println(s);
+        }
+    }
 
 
 
