@@ -5,18 +5,32 @@ import searchandsort.util.Factory;
 
 import java.util.*;
 
+
 public class Main {
 
     public static void main(String[] args) {
        //  testComplexity();
        // testLinearAndBinarySearch();
-       // testBubble(10, true, true);
+        // testBubble(10, true, true);
+                                                                // testIntBubble();
        //  testMerge(10, true, true);
        /* Student[] arr = createCardArray();
        printArray("Før sortering", arr);
        SortExamples.mergeSort(arr);
        printArray("Efter sortering", arr);
        */
+        testQuickSort();
+    }
+
+    private static void testQuickSort(){
+        int[] arr = {10, 7, 8, 9, 1, 5};
+        int n = arr.length;
+
+        SortExamples.quickSortInt(arr, 0, n - 1);
+
+        for (int val : arr) {
+            System.out.print(val + " ");
+        }
     }
 
     private static void testComplexity() {
@@ -89,6 +103,20 @@ public class Main {
         if (print) printList("Bubble Sort - efter", list);
         if (time) System.out.println("Bubble Sort - tid: " + (stop - start) + " ms");
     }
+    /*
+    private static void testIntBubble() {
+        int[] a = { 64, 34, 25, 12 };
+
+        intBubbleSort(a);
+
+        int n = a.length;
+
+        for (int i = 0; i < n; ++i)
+            System.out.print(a[i] + " ");
+        System.out.println();
+    }
+
+     */
 
     private static void testHeap(int size, boolean time, boolean print) {
         List<Student> list = new ArrayList<>();
@@ -101,19 +129,19 @@ public class Main {
         if (print) printList("Heap Sort - efter", list);
         if (time) System.out.println("Heap Sort - tid: " + (stop - start) + " ms");
     }
-
+/*
     private static void testQuick(int size, boolean time, boolean print) {
         List<Student> list = new ArrayList<>();
         Factory.fillWithStudents(list, size);
         Collections.shuffle(list);
         if (print) printList("Quick Sort - før", list);
         long start = System.currentTimeMillis();
-        SortExamples.quickSort(list, 0, list.size() - 1);
+        quickSort(list, 0, list.size() - 1);
         long stop = System.currentTimeMillis();
         if (print) printList("Quick Sort - efter", list);
         if (time) System.out.println("Quick Sort - tid: " + (stop - start) + " ms");
     }
-
+*/
     private static void testMerge(int size, boolean time, boolean print) {
         List<Student> original = new ArrayList<>();
         Factory.fillWithStudents(original, size);

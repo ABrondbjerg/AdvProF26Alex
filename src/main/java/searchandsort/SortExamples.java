@@ -16,6 +16,23 @@ public class SortExamples {
             }
         }
     }
+/*
+    public static void intBubbleSort(int arr[]){
+
+        int n = arr.length;
+
+        for(int i = 0; i < n -1;i++){
+            for(int j = 0; j < n - i; j++){
+                if(arr[j] > arr[j + 1]){
+                   // SWAP METODE
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+ */
 
     public static void heapSort(List<Student> students) {
         PriorityQueue<Student> heap = new PriorityQueue<>(Comparator.comparingInt(Student::getId));
@@ -26,7 +43,7 @@ public class SortExamples {
             students.add(heap.poll());
         }
     }
-
+/*
     // rekursiv metode
     public static void quickSort(List<Student> students, int low, int high) {
         // base case - vi hopper ud af rekursion hvis low er >=  high
@@ -36,6 +53,8 @@ public class SortExamples {
             quickSort(students, pivot + 1, high);
         }
     }
+
+
 
     private static int partition(List<Student> students, int low, int high) {
         int pivotValue = students.get(high).getId();
@@ -49,6 +68,39 @@ public class SortExamples {
         Collections.swap(students, i + 1, high);
         return i + 1;
     }
+*/
+
+    static int partition(int[] arr, int low, int high) {
+        int pivot = arr[high];
+        int i = low - 1;
+
+        for (int j = low; j <= high - 1; j++) {
+            if (arr[j] < pivot) {
+                i++;
+                swap(arr, i, j);
+            }
+        }
+        swap(arr, i + 1, high);
+        return i + 1;
+    }
+
+    static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    static void quickSortInt(int[] arr, int low, int high) {
+        if (low < high) {
+
+            int pi = partition(arr, low, high);
+            quickSortInt(arr, low, pi - 1);
+            quickSortInt(arr, pi + 1, high);
+        }
+    }
+
+
+
 
     public static void mergeSort(Student[] students){
         // Hvis der er 1 element tilbage kan vi ikke sortere mere

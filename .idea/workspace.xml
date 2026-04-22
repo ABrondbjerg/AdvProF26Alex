@@ -7,6 +7,7 @@
     <list default="true" id="4a9a5430-e83d-4879-8d5e-c9086862fc55" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/searchandsort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/searchandsort/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/searchandsort/SortExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/searchandsort/SortExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,59 +44,59 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BigOExamples.executor": "Run",
-    "Application.CycleDetector.executor": "Run",
-    "Application.HashSetMutationDemo.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.MazeExercise.executor": "Run",
-    "Application.MazeSolution.executor": "Debug",
-    "Application.MoneyHandler.executor": "Run",
-    "Application.MysteryInspector.executor": "Run",
-    "Application.MysteryInspectorSolution.executor": "Run",
-    "Application.Quiz.executor": "Run",
-    "Application.SearchStrategies.executor": "Run",
-    "Application.TreeSetMutationDemo.executor": "Run",
-    "Application.TryBacktrack.executor": "Run",
-    "Application.WoodHandlerSolution.executor": "Run",
-    "Application.algorithms.backtracking.Main.executor": "Debug",
-    "Application.algorithms.circularlinkedlist.Main.executor": "Run",
-    "Application.algorithms.circularlinkedlistsolution.Main.executor": "Run",
-    "Application.algorithms.floydexample.Main.executor": "Run",
-    "Application.algorithms.reversedlinkedlistsolution.Main.executor": "Run",
-    "Application.algorithms.treesearchsolution.SearchStrategies.executor": "Run",
-    "Application.algorithms.undirectedgraphs.CycleDetector.executor": "Run",
-    "Application.concurrency.bankaccount.Main.executor": "Run",
-    "Application.concurrency.executorsolution.Main.executor": "Run",
-    "Application.concurrency.observersolution.Main.executor": "Run",
-    "Application.concurrency.observersolutionwiththreads.Main.executor": "Run",
-    "Application.concurrency.synchronization.Main.executor": "Run",
-    "Application.concurrency.threadandrunnable.Main.executor": "Run",
-    "Application.designpatterns.exercises.Main.executor": "Run",
-    "Application.designpatterns.main.Main.executor": "Run",
-    "Application.reflection.annotations.Main.executor": "Run",
-    "Application.reflection.annotations_solution.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kong/OneDrive - Erhvervsakademi København/Dokumenter/Valgfag/Materialer/F26/AvanceretProgrammeringF26",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/kong/OneDrive - EFIF/Dokumenter/Valgfag/AvanceretProgrammering/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BigOExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CycleDetector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetMutationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MazeExercise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MazeSolution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MoneyHandler.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MysteryInspector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MysteryInspectorSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchStrategies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSetMutationDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryBacktrack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WoodHandlerSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.algorithms.backtracking.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.algorithms.circularlinkedlist.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.algorithms.circularlinkedlistsolution.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.algorithms.floydexample.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.algorithms.reversedlinkedlistsolution.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.algorithms.treesearchsolution.SearchStrategies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.algorithms.undirectedgraphs.CycleDetector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.concurrency.bankaccount.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.concurrency.executorsolution.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.concurrency.observersolution.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.concurrency.observersolutionwiththreads.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.concurrency.synchronization.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.concurrency.threadandrunnable.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.designpatterns.exercises.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.designpatterns.main.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reflection.annotations.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reflection.annotations_solution.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;AdvProSort&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kong/OneDrive - Erhvervsakademi København/Dokumenter/Valgfag/Materialer/F26/AvanceretProgrammeringF26&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kong/OneDrive - EFIF/Dokumenter/Valgfag/AvanceretProgrammering/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kong\OneDrive - EFIF\Dokumenter\Valgfag\AvanceretProgrammering\src\main\java\reflection\annotations_solution" />
@@ -201,8 +207,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -265,11 +271,24 @@
       <workItem from="1776151928392" duration="5741000" />
       <workItem from="1776237350874" duration="6874000" />
       <workItem from="1776327955785" duration="2275000" />
+      <workItem from="1776341051772" duration="3620000" />
+      <workItem from="1776681528382" duration="5804000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,7 +325,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/searchandsort/SortExamples.java</url>
-          <line>55</line>
+          <line>107</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
